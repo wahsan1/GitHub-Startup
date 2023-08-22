@@ -15,6 +15,7 @@ git init (make .git) / rm -rf .git (Del .git)
 git status
 git add --a OR git add "...."
 git commit -m "third commit"
+git commit -a -m "" > used to skip staging area However untracked/ new files that are not staged before wont be added
 git log
 
 touch waleed.log > used to add a folder
@@ -22,3 +23,4 @@ touch .gitignore > file will be created in which u can add files that u dont wan
 git diff (to check differnece btw staging area and working dir)
 git diff --staged > diff btw staged data and previus commit data
 git clone https://xzy.com/abc.git "name of folder" (To clone complete repository)
+
