@@ -1,0 +1,23 @@
+sadas
+new
+use "..." if file has spaces in it
+
+git config --global user.name "Waleed"
+git config --global user.email "waleedahsan101@gmail.com"
+git --list (check complete ID details)
+git config user.name / email (to check id)
+
+pwd-(check)present working directory 
+ls (to list files in folder u r also)
+cd /... (to open a specific directory)
+
+git init (make .git) / rm -rf .git (Del .git)
+git status
+git add --a OR git add "...."
+git commit -m "third commit"
+git log
+
+touch waleed.log > used to add a folder
+touch .gitignore > file will be created in which u can add files that u dont want to be tracked
+
+git clone https://xzy.com/abc.git "name of folder" (To clone complete repository)
