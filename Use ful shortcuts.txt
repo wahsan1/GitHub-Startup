@@ -18,6 +18,7 @@ git commit -m "third commit"
 git log
 
 touch waleed.log > used to add a folder
-touch .gitignore > file will be created in which u can add files that u dont want to be tracked
-
+touch .gitignore > file will be created in which u can add files that u dont want to be tracked and ignore (if same extn files use *.extn) 
+git diff (to check differnece btw staging area and working dir)
+git diff --staged > diff btw staged data and previus commit data
 git clone https://xzy.com/abc.git "name of folder" (To clone complete repository)
