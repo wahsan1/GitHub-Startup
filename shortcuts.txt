@@ -17,6 +17,8 @@ git add --a OR git add "...."
 git commit -m "third commit"
 git commit -a -m "" > used to skip staging area However untracked/ new files that are not staged before wont be added
 git log
+git rm ..... > to remove a file from dir and auto stage dir
+git mv first.txt first_1.txt > rename and stage
 
 touch waleed.log > used to add a folder
 touch .gitignore > file will be created in which u can add files that u dont want to be tracked and ignore (if same extn files use *.extn) 
